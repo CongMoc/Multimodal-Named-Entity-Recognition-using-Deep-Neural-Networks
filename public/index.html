@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Merged Data</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Multimodal Named Entity Recognition</h1>
+
+    <div id="controls">
+      <div class="input-index">
+        <input
+          type="number"
+          id="index-input"
+          min="0"
+          placeholder="Enter index"
+        />
+        <button id="go-to-btn" style="background-color: #6eabe4">
+          Go to Index
+        </button>
+      </div>
+      <select id="folder-select">
+        <option value="DanTri">DanTri</option>
+        <option value="TuoiTre">TuoiTre</option>
+      </select>
+      <h2 id="total"></h2>
+      <h2 id="total-new"></h2>
+      <div class="keep-title">
+        <label for="check-box">Keep Title:</label>
+        <input type="checkbox" id="check-box" />
+      </div>
+      <div class="input-index">
+        <button id="prev-btn" style="background-color: chocolate">Prev</button>
+        <button id="next-btn" style="background-color: chocolate">Next</button>
+        <button id="add-btn" style="background-color: #6eabe4">
+          Add This Data
+        </button>
+      </div>
+    </div>
+
+    <div id="data-container"></div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

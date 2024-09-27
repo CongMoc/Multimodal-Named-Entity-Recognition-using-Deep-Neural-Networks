@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.content {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+.content img {
+  max-width: 100%;
+  height: auto;
+}
+#controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.input-index {
+  display: flex;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 2fr));
+  text-align: center;
+  padding: 0 5rem;
+}
+
+.image-detail {
+  padding: 2rem;
+  margin: 30px 0;
+}
+
+.image-detail img {
+  height: 580px;
+  width: 760px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.content-image {
+  display: block;
+  text-align: left;
+  align-content: center;
+}
+
+.checkbox-image {
+  display: flex;
+  justify-content: center;
+}
+
+.check-box-image {
+  width: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+h1 {
+  text-align: center;
+  font-size: 38px;
+  color: #ffa93f;
+}
+
+h2,
+a,
+p {
+  font-size: 20px;
+  margin: 10px 20px;
+  padding: 8px 0;
+}
+
+.keep-title {
+  width: 200px;
+  margin: 10px;
+}
+
+.keep-title label {
+  font-size: 20px;
+  padding: 0;
+}
+
+#check-box {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+input[type="number"] {
+  padding: 5px 10px;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+h4 {
+  margin: 10px 0;
+  font-size: 18px;
+  text-align: center;
+}
